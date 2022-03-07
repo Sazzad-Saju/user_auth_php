@@ -1,0 +1,92 @@
+#text {
+    height: 25px;
+    border-radius: 5px;
+    padding: 4px;
+    border: solid thin #aaa;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+#button {
+    padding: 10px;
+    width: 100px;
+    color: white;
+    background-color: lightgreen;
+    border: none;
+    display: block;
+    margin-bottom: 15px !important;
+    margin: auto;
+}
+
+#signupButton {
+    padding: 10px;
+    width: 100px;
+    color: white;
+    background-color: lightblue;
+    border: none;
+    display: block;
+    margin-bottom: 15px !important;
+    margin: auto;
+}
+
+#delButton {
+    text-align: center;
+    padding: 10px;
+    width: 100px;
+    color: white;
+    background-color: lightcoral;
+    border: none;
+    display: block;
+    margin-bottom: 15px !important;
+    /* margin: auto; */
+}
+
+#box {
+    background-color: gray;
+    margin: auto;
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+    margin-top: 15%;
+    padding-right: 30px!important;
+}
+
+a {
+    text-decoration: none;
+    color: lightblue;
+}
+
+
+/* alert closebtn closebtn-hover: for error alert */
+
+
+/* The alert message box */
+
+.alert {
+    padding: 20px;
+    background-color: #f44336;
+    /* Red */
+    color: white;
+    margin-bottom: 15px;
+}
+
+
+/* The close button */
+
+.closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+
+/* When moving the mouse over the close button */
+
+.closebtn:hover {
+    color: black;
+}
