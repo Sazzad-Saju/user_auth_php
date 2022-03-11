@@ -41,6 +41,10 @@
     /* margin: auto; */
 }
 
+#delButton:hover {
+    background-color: #FF6F61 !important;
+}
+
 #box {
     background-color: gray;
     margin: auto;

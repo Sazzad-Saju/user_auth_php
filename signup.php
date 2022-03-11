@@ -11,6 +11,9 @@
             $uid = random_num(10);
             $query = "insert into users (user_id,user_name,password) values ('$uid','$name','$pass')";
             mysqli_query($conn,$query);
+            // insert image table
+            $sql = "insert into profileimg (user_id,status) values ('$uid',1)";
+            mysqli_query($conn,$sql);
             header("Location: login.php");
             die;
         }else{
